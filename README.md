@@ -1,6 +1,5 @@
 ###
-Simple Tornado Web App that responds to a few basic requests
-
+Simple Tornado Web App that responds to some basic HTTP requests
 
 ###
 Setup
@@ -9,8 +8,8 @@ docker-compose up -d
 ###
 Usage
 
-# Return a basic greeting
-curl 127.0.0.1:8000/
+# Return a greeting
+curl 127.0.0.1:8000/request
 
-# Return content wrapped
-curl
+# Return a static HTML Page
+curl 127.0.0.1:8000/resume
